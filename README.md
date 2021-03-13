@@ -10,7 +10,7 @@ npm install
 
 # serve at http://localhost:4000/
 
-npm start
+npm run dev
 ```
 
 ## Prerequisites
@@ -21,13 +21,15 @@ npm start
 
 ## view redis data
 
-https://www.npmjs.com/package/redis-commander
+[redis-commander](https://www.npmjs.com/package/redis-commander)
 
 ```bash
 npm i -g redis-commander
 ```
 
 ```bash
+
+# refreshtoken is stored in redis
 # serve at http://localhost:5000/ (Default port 8081)
 redis-commander -p 5000
 ```
